@@ -1,6 +1,9 @@
 # Cliffcrown
 A simple greeter for greetd.
 
+## Usage
+This command should be run inside a display manager. I recommend running Sway with a custom configuration which launches this program into a new fullscreen window on startup.
+
 ## Configuration
 Options are given as "CLI args; config file option".
 
