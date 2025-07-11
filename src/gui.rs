@@ -49,8 +49,6 @@ impl eframe::App for GUI {
               Rect::from_min_max(Pos2::ZERO, Pos2::new(1.0, 1.0)),
             );
 
-            println!("uv: {adj_rect:?}");
-
             image.uv(adj_rect).paint_at(ui, ui.ctx().screen_rect());
           }
         }
