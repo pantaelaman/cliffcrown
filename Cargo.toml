@@ -1,0 +1,19 @@
+[package]
+name = "cliffcrown"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.40", features = ["derive"] }
+eframe = "0.31.1"
+egui = "0.31.1"
+egui_extras = { version = "0.31.1", features = ["file", "gif", "image", "svg", "webp"] }
+either = "1.15.0"
+greetd_ipc = { version = "0.10.3", features = ["sync-codec"] }
+image = "0.25.6"
+itertools = "0.14.0"
+profiling-procmacros = "1.0.17"
+rand = "0.9.1"
+serde = { version = "1.0.219", features = ["derive"] }
+tokio = { version = "1.46.1", features = ["macros", "rt", "rt-multi-thread", "sync"] }
+toml = "0.8.23"
